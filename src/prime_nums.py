@@ -7,8 +7,9 @@ def prime_nums(num):
         while j <= i/2:
             if i % j == 0:
                 is_prime = False
-                break
+
             j += 1
         if is_prime:
             primes.append(i)
+    print(primes)
     return primes

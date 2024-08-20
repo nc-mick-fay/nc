@@ -13,4 +13,5 @@ def test_returns_list_of_primes_for_nums_greater_than_2():
     assert prime_nums(4) == [2, 3]
     assert prime_nums(5) == [2, 3, 5]
     assert prime_nums(10) == [2, 3, 5, 7]
-    assert prime_nums(100) == [2, 3, 5]
+    assert prime_nums(100) == [2, 3, 5, 7, 11, 13, 17, 19, 23, 29,
+                               31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
